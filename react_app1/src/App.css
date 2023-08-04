@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,99 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+html {
+  background-color: antiquewhite;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.image{
+  display: flex;
+  justify-content: center;
+}
+
+.image > img {
+  height: 300px;
+  width: 350px;
+  margin-top: 5px;
+  border: solid 3px black;
+  border-radius: 52%;
+}
+
+#main {
+  background-color: rgb(107, 141, 237);
+  padding: 5px;
+  border: solid 5px black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  width: 100%;
+  margin-top: 50px;
+  margin-left: 235px;
+}
+
+.grid-items {
+  background-color: rgb(107, 141, 237) ;
+  text-align: center;
+  border: solid 5px black;
+  font-size: 50px;
+  padding: 20px;
+}
+
+.flex-container {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  margin-left: 235px;
+}
+
+.flex-items {
+  flex-basis: 495px;
+  background-color: rgb(107, 141, 237) ;
+  text-align: center;
+  border: solid 5px black;
+  font-size: 50px;
+  padding: 20px;
+}
+
+.year {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.option {
+  background-color: orange;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 8.5%;
+}
+
+.print {
+  margin-left: 50%;
+  margin-top: 50px;
+  background-color: orange;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 8.5%;
 }

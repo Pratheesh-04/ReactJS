@@ -16,7 +16,7 @@ function App() {
         <ul>
             <li>10th - Lotus Matric Higher Secondary School </li>
             <li>12th - Lotus Matric Higher Secondary School</li>
-            <li>UG - Kumaraguru College of Technology</li>
+            <li>UG - Kumaraguru College of Technology </li>
         </ul>
 
         <u><i><h3>Skills:</h3></i></u>

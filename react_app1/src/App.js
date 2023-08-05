@@ -1,24 +1,13 @@
-import logo from './logo.svg';
+import React from 'react';
+import logo from './ai-ml.webp';
 import './App.css';
+
 
 function App() {
   return (
     <div class = "body">
-      <div id = "main">
-        <i><b><h1>This is full-stack !!</h1></b></i>
-        <i><h2>Pratheeshwaran S</h2></i>
-        <b><i><p>Artificial Intelligence and Data Science</p></i></b>
-        <b><i><p id = "hello"></p></i></b>
-        <div class="year">
-            <button onclick="first()" class="option">In 1st year</button>
-            <button onclick="second()" class="option">In 2nd year</button>
-            <button onclick="third()" class="option">In 3rd year</button>
-            <button onclick="final()" class="option">In final year</button>
-        </div>
-      </div>
-
       <div  class = "image" >
-        {/* <img src="./assets/IMG_20230331_185606 (1).jpg" alt="me"> */}
+        <img src={logo}  alt="me"></img>
       </div>
 
       <div> 
@@ -56,8 +45,7 @@ function App() {
         <div class="flex-items">Project 3</div>
         <div class="flex-items">Project 4</div>
       </div>
-
-      <button onclick="window.print()" class="print">Print this page</button>     
+    
     </div>
     
         
